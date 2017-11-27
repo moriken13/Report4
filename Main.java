@@ -8,6 +8,8 @@ public class Main {
         }catch(NullPointerException e){
             System.out.println("NullPointerExceptionが発生。");
             System.out.println(e.getMessage());
+        }catch (NumberFormatException e){
+            System.out.println(e.getMessage());
         }     
     }
 }
